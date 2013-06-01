@@ -1,0 +1,71 @@
+#
+# system.prop for bliss
+#
+
+ro.sf.lcd_density=240
+
+debug.fb.rgb565 = 0
+debug.enabletr = true
+debug.qctwa.preservebuf = 1
+
+debug.hwc.skipcomposition = 0
+
+rild.libpath=/system/lib/libhtc_ril.so
+
+# vision RF team request
+ro.ril.enable.dtm = 0
+ro.ril.gprsclass = 12
+ro.ril.hsdpa.category = 8
+ro.ril.hsupa.category = 6
+ro.ril.hsxpa = 2
+
+ro.ril.ecc.VODA-Africa-South=112,999,911
+ro.ril.ecc.O2-DE=112,911
+ro.ril.ecc.HTC-ITA=112,911
+ro.ril.ecc.HTC-FRA=112,911
+ro.ril.ecc.HTC-EastEurope=911,112
+ro.ril.ecc.HTC-Dutch=112
+ro.ril.ecc.Optus-Australia=000,112,911
+ro.ril.ecc.TWM-TW=112,911,110,119
+ro.ril.ecc.Asia-HK-CHT=112,911,999
+ro.ril.ecc.VODA-UK=112,911,999
+ro.ril.ecc.HTC-WWE=112,911,999
+ro.ril.ecc.O2-UK=112,911,999
+ro.ril.ecc.Open-Channel=112,911
+ro.ril.ecc.HTC-GCC=999,112,997
+ro.ril.ecc.HTC-Asia-SEA-WWE=911,112,999,110,191,113,15,1122,115,16,118
+ro.ril.ecc.HTC-India=100,101,102,108
+ro.ril.enable.a53=1
+ro.ril.enable.dtm=1
+ro.ril.hsdpa.category=10
+ro.ril.hsupa.category=6
+ro.ril.hsxpa=2
+ro.ril.def.agps.mode=2
+ro.ril.fast.dormancy.rule=1
+ro.ril.radio.svn=1
+ro.ril.disable.fd.plmn.prefix=23402,23410,23411,23420
+ro.ril.enable.sdr=1
+ro.ril.enable.amr.wideband=0
+ro.ril.tw.ecc.feature.HTC__621=1
+ro.ril.normal.ecclist.HTC__038=100,101,102,108
+ro.ril.def.agps.mode=2
+
+# Default network type.
+# 0 => WCDMA preferred.
+ro.telephony.default_network=0
+
+# The OpenGL ES API level that is natively supported by this device.
+# This is a 16.16 fixed point number
+ro.opengles.version = 131072
+
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=15
+
+# For HSDPA low throughput
+ro.ril.disable.power.collapse = 1
+
+# Vivo China NEL use
+ro.ril.update.vivo.acoustic = 1
+
+# USB Mounting
+persist.sys.usb.config=mass_storage,adb

@@ -1,0 +1,58 @@
+# Configuration files
+etc/agps_rm
+etc/vpimg
+
+# Executable files
+bin/charging
+bin/ipd
+bin/netsharing
+bin/rmt_storage
+
+# Audio
+lib/libaudioalsa.so
+lib/libhtc_acoustic.so
+
+# Camera
+lib/hw/camera.default.so
+lib/libcameraface.so
+lib/libcamerapp.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/liboemcamera.so
+lib/libOlaEngine.so
+lib/libposteffect.so
+
+# Chromatix
+lib/libchromatix_s5k3h1gx_default_video.so
+lib/libchromatix_s5k3h1gx_preview.so
+
+# Graphics
+lib/egl/eglsubAndroid.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/libC2D2.so
+lib/libsc-a2xx.so
+
+# Misc libraries
+lib/libgemini.so
+lib/libgsl.so
+lib/libmm-color-convertor.so
+lib/libOpenVG.so
+lib/libv8.so
+
+# Radio
+lib/libhtc_ril.so
+
+# Sensors
+lib/hw/sensors.bliss.so
+
+# From ace
+bin/bma150_usr
+bin/htc_ebdlogd
+bin/logcat2
+bin/rmt_storage
+bin/snd3254
+etc/AudioBTID.csv
+
