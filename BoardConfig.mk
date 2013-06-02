@@ -1,3 +1,5 @@
+TARGET_ARCH_VARIANT := armv7-a-neon
+
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
@@ -23,6 +25,7 @@ BOARD_FLASH_BLOCK_SIZE := 1024
 TARGET_PREBUILT_KERNEL := device/htc/bliss/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
+#BOARD_TOUCH_RECOVERY := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 
